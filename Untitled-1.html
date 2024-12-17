@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <Title>Worldbuilding Tables</Title>
+        <link rel="stylesheet" href="worldbuilding.css">
+        <script src="worldbuilding.js"></script>
+    </header>
+
+    <main>
+        <h1>Welcome to my proto-website for Worldbuilding Generators!</h1>
+        <p>This is where all the various generators will output!</p>
+
+        <div class="town-name">
+            <p>Town Name:</p>
+            <p id="yourTownName">Place holder.</p>
+        </div>
+
+        <div class="middle-row">
+            <div class="population column top-row">
+                <p class="left-column">Population:</p>
+                <p class="left-column" id="pop-total">[Number here!]</p>
+            </div>
+            <div class="town-leader column center-column top-row">
+                <p>Town elder:</p>
+                <p id="town-elder">[Name here!]</p>
+            </div>
+            <div class="major-stuff column top-row">
+                <p class="right-column">Major industry:</p>
+                <p class="right-column" id="town-industry">[Industry here]</p>
+            </div>
+        </div>
+
+        <div class="third-row">
+            <div class="column">
+                <p class="left-column">Opinions on government</p>
+                <p class="left-column" id="town-loyalty">[Level of civic spirit?]</p>
+            </div>
+            <div class="column center-column">
+                <p>Notable geographic features</p>
+                <p>[What's around?]</p>
+            </div>
+            <div class="column">
+                <p class="right-column">Any historical sites?</p>
+                <p class="right-column">[Anything to see here?]</p>
+            </div>
+        </div>
+
+        <div class="button">
+            <button type="button" onclick="createTown()">Click me!</button>
+        </div>
+
+        <div>
+            <p class="lower-right">Number</p>
+        </div>
+    </main>
+    
+
+
+</html>
